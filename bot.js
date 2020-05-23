@@ -10,5 +10,8 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
-client.login(process.env.BOT_TOKEN);
+try {
+  client.login(process.env.BOT_TOKEN);
+} catch(e) {
+  console.log("This is the error -> ".e);
+}
