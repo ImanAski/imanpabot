@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if(msg.content.startwith("/pachekhari")) {
+  if(msg.content.startsWith("/pachekhari")) {
     msg.reply("بسیار زیبا بود جناب/سرکارخانم ".message.author);
   }
   if (msg.content === 'ping') {
