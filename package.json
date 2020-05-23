@@ -1,13 +1,23 @@
 {
-	"name": "Iman's Personal Assistant",
-	"description": "Nothing's Special",
-	"version": "1.0",
-	"main": "bot.js",
-	"scripts": {
-		"start": "node bot.js"
-	},
-	"dependencies": {
-		"discord.js": "11.1.0",
-		"request": "2.81.0"
-	}
+  "name": "immdpabot",
+  "version": "1.0.0",
+  "description": "An intelligent bot for pachekhari",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImanAski/imanpabot.git"
+  },
+  "dependencies": {
+	  "discord.js": "11.1.0",
+	  "request": "2.81.0"
+  },
+  "author": "Iman and Mamad Co. LTD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImanAski/imanpabot/issues"
+  },
+  "homepage": "https://github.com/ImanAski/imanpabot#readme"
 }
