@@ -11,6 +11,7 @@ client.on('message', msg => {
   }
 });
 try {
+  console.log(process.env.BOT_TOKEN);
   client.login(process.env.BOT_TOKEN);
 } catch(e) {
   console.log("This is the error -> ".e);
