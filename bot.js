@@ -4,12 +4,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
-  if(msg.content.startsWith("hitmewithapoem")) {
-    msg.author.send("this is it.");
-  }
   if (msg.content === 'ping') {
-    msg.reply('Pong!');
+    msg.author.send('Pong!');
   }
 });
 try {
